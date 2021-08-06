@@ -6,6 +6,8 @@ This is experimental and not recommended in production.
 
 # example
 $ ./vault-list.sh /secret bar
+
+
 /secret/
 searchterm: bar
 
