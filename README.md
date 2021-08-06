@@ -8,17 +8,17 @@ This is experimental and not recommended in production.
 $ ./vault-list.sh /secret bar
 
 
-/secret/
-searchterm: bar
+    /secret/
 
-Path: /secret/goodbye
-[
-  "bar"
-]
-my_searchterm2:
+    searchterm: bar
 
-Path: /secret/hello
-[
-  "foo",
-  "foofoo"
-]
+    Path: /secret/goodbye
+    [
+      "bar"
+    ]
+
+    Path: /secret/hello
+    [
+      "foo",
+      "foofoo"
+    ]
